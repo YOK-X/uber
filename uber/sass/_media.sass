@@ -4,4 +4,53 @@
             font-size: 13px
         &_item
             padding-right: 20px
-        
+    .promo
+        &_header
+            font-size: 50px
+    .oppo
+        &_ul
+            align-items: flex-start
+        &_li
+            width: 300px !important
+
+@media (max-width: 991px)
+    .menu
+        &_link
+            font-size: 10px
+        &_item
+            padding-right: 8px
+    .subheader
+        &_.logo
+            img
+                width: 100%
+        &_official
+            font-size: 10px
+        &_phone
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .oppo
+        &_ul
+            flex-direction: column
+            align-items: center
+        &_li
+            width: 300px
+            margin-top: 20px
+
+@media (max-width: 761px)
+    .menu
+        position: fixed
+        flex-direction: column
+        top: 0
+        right: 0
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
